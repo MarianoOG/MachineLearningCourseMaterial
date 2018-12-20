@@ -1,0 +1,30 @@
+# ################################################################
+# ## Artificial Intelligence Laboratoy, CIC-IPN                 ##
+# ## Professor: Dr. Salvador Godoy Calderón                     ##
+# ## Author: Mariano Orozco García                              ##
+# ##                                                            ##
+# ## Example1.maze: Defines a maze that will act as an example  ##
+# ##                                                            ##
+# ## Update: November, 2016                                     ##
+# ##                                                            ##
+# ## Notes: in maze 0 means space and -1 means wall             ##
+# ################################################################
+
+# Maze
+0 0 0
+0 -1 0
+-1 0 0
+
+# Start
+2 1
+
+# Goal
+3 2
+
+# Gamma
+0.9
+
+# NodeDistance
+3
+
+# End

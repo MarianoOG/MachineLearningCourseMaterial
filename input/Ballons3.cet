@@ -1,0 +1,51 @@
+# ################################################################
+# ## Laboratorio de Inteligencia Artificial, CIC-IPN            ##
+# ## Profesor: Dr. Salvador Godoy Calderón                      ##
+# ## Autor: Mariano Orozco García                               ##
+# ##                                                            ##
+# ## Ballons3.cet: Tabla de ejemplo para pruebas                ##
+# ## Title: Balloon databases                                   ##
+# ## Source: Michael Pazzani (pazzani@ics.uci.edu)              ##
+# ## From: http://archive.ics.uci.edu/ml/datasets/Balloons      ##
+# ## Answer: (or (= color yellow) (= size small))               ##
+# ##                                                            ##
+# ## Actualizado: Agosto, 2016                                  ##
+# ################################################################
+
+# Class
+inflated - T F
+
+# Headers
+Color size act age
+
+# Domains
+yellow purple
+large small
+stretch dip
+adult child
+
+# Examples T
+YELLOW SMALL STRETCH ADULT
+YELLOW SMALL STRETCH CHILD
+YELLOW SMALL DIP ADULT
+YELLOW SMALL DIP CHILD
+YELLOW SMALL STRETCH ADULT
+YELLOW SMALL STRETCH CHILD
+YELLOW SMALL DIP ADULT
+YELLOW SMALL DIP CHILD
+
+# Examples F
+YELLOW LARGE STRETCH ADULT
+YELLOW LARGE STRETCH CHILD
+YELLOW LARGE DIP ADULT
+YELLOW LARGE DIP CHILD
+PURPLE SMALL STRETCH ADULT
+PURPLE SMALL STRETCH CHILD
+PURPLE SMALL DIP ADULT
+PURPLE SMALL DIP CHILD
+PURPLE LARGE STRETCH ADULT
+PURPLE LARGE STRETCH CHILD
+PURPLE LARGE DIP ADULT
+PURPLE LARGE DIP CHILD
+
+# End

@@ -1,0 +1,34 @@
+# ################################################################
+# ## Laboratorio de Inteligencia Artificial, CIC-IPN            ##
+# ## Profesor: Dr. Salvador Godoy Calderón                      ##
+# ## Autor: Mariano Orozco García                               ##
+# ##                                                            ##
+# ## Mineral.cet: Tabla de ejemplo para pruebas                 ##
+# ##                                                            ##
+# ## Actualizado: Agosto, 2016                                  ##
+# ################################################################
+
+# Class
+Mineral - Diamante Yeso Zinc
+
+# Headers
+Color Dureza Raya
+
+# Domains
+Gris Incoloro Blanco Verde
+Elevada Media Baja
+Blanca Gris Café
+
+# Examples Diamante
+Gris Elevada Blanca
+Incoloro Elevada Gris
+
+# Examples Yeso
+Gris Baja Blanca
+Blanco Baja Blanca
+
+# Examples Zinc
+Gris Media Café
+Verde Elevada Café
+
+# End

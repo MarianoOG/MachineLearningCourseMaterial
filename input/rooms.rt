@@ -1,0 +1,31 @@
+# ################################################################
+# ## Artificial Intelligence Laboratoy, CIC-IPN                 ##
+# ## Professor: Dr. Salvador Godoy Calderón                     ##
+# ## Author: Mariano Orozco García                              ##
+# ##                                                            ##
+# ## Rooms.rewards: Defines the basic test problem for rooms    ##
+# ##                                                            ##
+# ## Update: October, 2016                                      ##
+# ################################################################
+
+# Transition
+-1 -1 -1 -1 0 -1
+-1 -1 -1 0 -1 0
+-1 -1 -1 0 -1 -1
+-1 0 0 -1 0 -1
+0 -1 -1 0 -1 0
+-1 0 -1 -1 0 0
+
+# Start
+2
+
+# Goal
+5
+
+# Gamma
+0.8
+
+# NodeDistance
+2 ; if its not defined defalt is 1
+
+# End

@@ -1,0 +1,46 @@
+# ################################################################
+# ## Laboratorio de Inteligencia Artificial, CIC-IPN            ##
+# ## Profesor: Dr. Salvador Godoy Calderón                      ##
+# ## Autor: Mariano Orozco García                               ##
+# ##                                                            ##
+# ## Golf.cet: Tabla de ejemplo para pruebas                    ##
+# ##                                                            ##
+# ## Title: Golf-Weather data set                               ##
+# ## From: http://gerardnico.com/wiki/data_mining/weather       ##
+# ##                                                            ##
+# ## Actualizado: Agosto, 2016                                  ##
+# ################################################################
+
+# Class
+Play - yes no
+
+# Headers
+Outlook NumericTemperature NominalTemperature NumericHumidity NominalHumidity Windy
+
+# Domains
+overcast rainy sunny
+64 65 68 69 70 71 72 75 80 81 83 85
+cool mild hot
+65 70 75 80 85 86 90 91 95 96
+normal high
+FALSE TRUE
+
+# Examples yes
+overcast 83 hot 86 high FALSE
+overcast 64 cool 65 normal TRUE
+overcast 72 mild 90 high TRUE
+overcast 81 hot 75 normal FALSE
+rainy 70 mild 96 high FALSE
+rainy 68 cool 80 normal FALSE
+rainy 75 mild 80 normal FALSE
+sunny 69 cool 70 normal FALSE
+sunny 75 mild 70 normal TRUE
+
+# Examples no
+rainy 65 cool 70 normal TRUE
+rainy 71 mild 91 high TRUE
+sunny 85 hot 85 high FALSE
+sunny 80 hot 90 high TRUE
+sunny 72 mild 95 high FALSE
+
+# End

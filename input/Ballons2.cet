@@ -1,0 +1,51 @@
+# ################################################################
+# ## Laboratorio de Inteligencia Artificial, CIC-IPN            ##
+# ## Profesor: Dr. Salvador Godoy Calderón                      ##
+# ## Autor: Mariano Orozco García                               ##
+# ##                                                            ##
+# ## Ballons2.cet: Tabla de ejemplo para pruebas                ##
+# ## Title: Balloon databases                                   ##
+# ## Source: Michael Pazzani (pazzani@ics.uci.edu)              ##
+# ## From: http://archive.ics.uci.edu/ml/datasets/Balloons      ##
+# ## Answer: (and (= age adult) (= act stretch))                ##
+# ##                                                            ##
+# ## Actualizado: Agosto, 2016                                  ##
+# ################################################################
+
+# Class
+inflated - T F
+
+# Headers
+Color size act age
+
+# Domains
+yellow purple
+large small
+stretch dip
+adult child
+
+# Examples T
+YELLOW SMALL STRETCH ADULT
+YELLOW SMALL STRETCH CHILD
+YELLOW SMALL DIP ADULT
+YELLOW LARGE STRETCH ADULT
+YELLOW LARGE STRETCH CHILD
+YELLOW LARGE DIP ADULT
+PURPLE SMALL STRETCH ADULT
+PURPLE SMALL STRETCH CHILD
+PURPLE SMALL DIP ADULT
+PURPLE LARGE STRETCH ADULT
+PURPLE LARGE STRETCH CHILD
+PURPLE LARGE DIP ADULT
+
+# Examples F
+PURPLE LARGE DIP CHILD
+PURPLE LARGE DIP CHILD
+PURPLE SMALL DIP CHILD
+PURPLE SMALL DIP CHILD
+YELLOW LARGE DIP CHILD
+YELLOW LARGE DIP CHILD
+YELLOW SMALL DIP CHILD
+YELLOW SMALL DIP CHILD
+
+# End

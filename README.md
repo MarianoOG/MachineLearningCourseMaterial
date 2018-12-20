@@ -23,8 +23,8 @@ Two sample programs were created to demonstrate the usefulness of these packages
 
 Two types of files were generated that contain the prior knowledge of the problems to be solved. One of them, *.cet* (Class Example Tables) files, contain a table with examples where the information of each class is found along with their attributes. The other type of file is *.rt* (Reinforcement Tables) where three sub-type of problems can be found: labyrinths, reinforcement tables and transitions tables. Each one defines in a different way the problem and rewards that are obtained when changing from one state to another.
 
-## Propose
+## Purpose
 
-These packages were created with the propose to save time to students so they can focus their energy on understanding and generating new alternatives to algorithms instead of concentrating on the repetitive tasks that are inherent in their creation.
+These packages were created with the purpose to save time to students so they can focus their energy on understanding and generating new alternatives to algorithms instead of concentrating on the repetitive tasks that are inherent in their creation.
 
 The ideal use of this work is to enable the students create new algorithms using the function packages as a start, test them against the problems and modify the algorithms based on their findings.
